@@ -15,6 +15,6 @@ func checkNumberisSquare(_ val: Int)-> (Int,Bool){
     return (0,false)
 }
 
-let val = 2
+let val = 24
 let checkisSquare = checkNumberisSquare(val)
 print(" \(val) is a \(checkisSquare.1 ? "" : "Not ")Perfect Square root : \(checkisSquare)")

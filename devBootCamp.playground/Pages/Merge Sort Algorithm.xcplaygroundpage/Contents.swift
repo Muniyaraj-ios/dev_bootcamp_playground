@@ -17,7 +17,6 @@ func mergeSort(_ array: [Int]) -> [Int] {
     // Merge the sorted halves
     return merge(leftArray: sortedLeftArray, rightArray: sortedRightArray)
 }
-
 func merge(leftArray: [Int], rightArray: [Int]) -> [Int] {
     var leftIndex = 0
     var rightIndex = 0
@@ -55,7 +54,6 @@ func merge(leftArray: [Int], rightArray: [Int]) -> [Int] {
     
     return orderedArray
 }
-
 // Example usage
 let array = [8, 3, 5, 4, 2, 7, 6, 1]
 let sortedArray = mergeSort(array)

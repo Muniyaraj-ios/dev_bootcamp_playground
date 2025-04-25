@@ -1,8 +1,6 @@
 
 import Foundation
 
-var greeting = "Hello, playground"
-
 
 func printStarPattern(_ n: Int){
     guard n > 0 else { return }
